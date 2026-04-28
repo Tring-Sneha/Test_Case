@@ -657,6 +657,82 @@ test('Verify Select All Feature Appearance', async ({ page }) => {await allure.f
   await page.getByText('Draft').click();
 });
 
+
+test('Action CTA - Unpublish for Published Talent', async ({ page }) => {await allure.feature('Talents');await allure.displayName('Verify that for a published talent, Unpublish CTA is available, and clicking it unpublishes the talent.');await allure.owner('Sneha Krishna');await allure.tags('Talents','Talents');await allure.severity('High');await allure.parentSuite('Talents');await allure.suite('Talents');const common = new Common(page);
+  await page.goto('https://console.staging.revoltworld.com/login');
+  await page.getByRole('textbox', { name: 'Enter your email' }).click();
+  await page.getByRole('textbox', { name: 'Enter your email' }).fill('naven.a@tringapps.com');
+  await page.getByRole('textbox', { name: 'Enter your password' }).click();
+  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'Enter your password' }).fill('T');
+  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'Enter your password' }).fill('Test@123');
+  await page.getByRole('img', { name: 'Toggle password' }).click();
+  await page.getByRole('button', { name: 'Sign In' }).click();
+  await page.locator('div:nth-child(2) > .Projects_cardImage__IYNfF').click();
+  await page.getByRole('button', { name: 'Talents Talents' }).click();
+  await page.getByRole('button', { name: 'Create New' }).click();
+  await page.getByRole('textbox', { name: 'Name *' }).click();
+  await page.getByRole('textbox', { name: 'Name *' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'Name *' }).fill('T');
+  await page.getByRole('textbox', { name: 'Name *' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'Name *' }).fill('Test12');
+  await page.getByRole('checkbox', { name: 'Saturday' }).check();
+  await page.locator('.CreateTalent_dropIcon__VdaDr > svg > path:nth-child(2)').click();
+  await page.locator('div:nth-child(2) > .MediaLibrary_folderIcon__XW9Br > svg > path:nth-child(2)').click();
+  await page.getByRole('img', { name: 'BlackCoffeeCafe.png' }).click();
+  await page.getByRole('img', { name: 'BlackCoffeeCafe.png' }).click();
+  await page.getByRole('button', { name: 'Apply Crop' }).click();
+  await page.getByRole('button', { name: 'Back to Talents' }).click();
+  await page.getByRole('checkbox').nth(2).check();
+  await page.getByRole('button', { name: 'Unpublish' }).click();
+  await page.getByText('Unpublished').click();
+});
+
+
+
+test('Verify Schedule Modal appearance and background', async ({ page }) => {await allure.feature('Schedule');await allure.displayName('Ensure the Schedule Modal appears correctly with a darkened background when Schedule is tapped.');await allure.owner('Sneha Krishna');await allure.tags('Schedule','UI/UX');await allure.severity('High');await allure.parentSuite('Schedule');await allure.suite('UI/UX');const common = new Common(page);
+  await page.goto('https://console.staging.revoltworld.com/login');
+  await page.getByRole('textbox', { name: 'Enter your email' }).click();
+  await page.getByRole('textbox', { name: 'Enter your email' }).fill('naven.a@tringapps.com');
+  await page.getByRole('textbox', { name: 'Enter your password' }).click();
+  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'Enter your password' }).fill('T');
+  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'Enter your password' }).fill('Test@123');
+  await page.getByRole('img', { name: 'Toggle password' }).click();
+  await page.getByRole('button', { name: 'Sign In' }).click();
+  await page.locator('div:nth-child(2) > .Projects_cardImage__IYNfF').click();
+  await page.locator('body').press('ControlOrMeta+-');
+  await page.locator('body').press('ControlOrMeta+-');
+  await page.locator('body').press('ControlOrMeta+-');
+  await page.locator('body').press('ControlOrMeta+-');
+  await page.locator('body').press('ControlOrMeta+-');
+  await page.locator('body').press('ControlOrMeta+-');
+  await page.getByRole('button', { name: 'Schedule' }).click();
+  await page.getByRole('button', { name: 'Schedule Notification' }).click();
+  await page.getByRole('button').filter({ hasText: /^$/ }).click();
+  await page.locator('.AllNotification_page__D-78m').click();
+});
+
+test('Verify the presence and position of the Notification Log tab.', async ({ page }) => {await allure.feature('Schedule');await allure.displayName('Ensure that the Notification Log tab is present on the UI and is positioned to the right of the Program Notifications tab in the middle section.');await allure.owner('Sneha Krishna');await allure.tags('Schedule','List');await allure.severity('High');await allure.parentSuite('Schedule');await allure.suite('List');const common = new Common(page);
+  await page.goto('https://console.staging.revoltworld.com/login');
+  await page.getByRole('textbox', { name: 'Enter your email' }).click();
+  await page.getByRole('textbox', { name: 'Enter your email' }).fill('naven.a@tringapps.com');
+  await page.getByRole('textbox', { name: 'Enter your password' }).click();
+  await page.getByRole('textbox', { name: 'Enter your email' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'Enter your password' }).fill('T');
+  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
+  await page.getByRole('textbox', { name: 'Enter your password' }).fill('Test@123');
+  await page.getByRole('img', { name: 'Toggle password' }).click();
+  await page.getByRole('button', { name: 'Sign In' }).click();
+  await page.locator('div:nth-child(2) > .Projects_cardImage__IYNfF').click();
+  await page.getByRole('button', { name: 'Configuration Configuration' }).click();
+  await page.getByRole('button', { name: 'Notifications Notifications' }).click();
+  await page.getByRole('tab', { name: 'Notification Log' }).click();
+});
+
+
 test('Verify Form Title for creating a new program.', async ({ page }) => {await allure.feature('Programming');await allure.displayName('Ensure that when creating a new program, the form title correctly displays Create New Program');await allure.owner('Sneha Krishna');await allure.tags('Programming','Create');await allure.severity('High');await allure.parentSuite('Programming');await allure.suite('Create');const common = new Common(page);
   await page.goto('https://console.staging.revoltworld.com/login');
   await page.getByRole('textbox', { name: 'Enter your email' }).click();
@@ -939,80 +1015,3 @@ test('Action CTA - Publish for New/Draft Talent', async ({ page }) => {await all
   await page.getByRole('button', { name: 'Publish', exact: true }).click();
   await page.getByText('Published', { exact: true }).click();
 });
-
-test('Action CTA - Unpublish for Published Talent', async ({ page }) => {await allure.feature('Talents');await allure.displayName('Verify that for a published talent, Unpublish CTA is available, and clicking it unpublishes the talent.');await allure.owner('Sneha Krishna');await allure.tags('Talents','Talents');await allure.severity('High');await allure.parentSuite('Talents');await allure.suite('Talents');const common = new Common(page);
-  await page.goto('https://console.staging.revoltworld.com/login');
-  await page.getByRole('textbox', { name: 'Enter your email' }).click();
-  await page.getByRole('textbox', { name: 'Enter your email' }).fill('naven.a@tringapps.com');
-  await page.getByRole('textbox', { name: 'Enter your password' }).click();
-  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
-  await page.getByRole('textbox', { name: 'Enter your password' }).fill('T');
-  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
-  await page.getByRole('textbox', { name: 'Enter your password' }).fill('Test@123');
-  await page.getByRole('img', { name: 'Toggle password' }).click();
-  await page.getByRole('button', { name: 'Sign In' }).click();
-  await page.locator('div:nth-child(2) > .Projects_cardImage__IYNfF').click();
-  await page.getByRole('button', { name: 'Talents Talents' }).click();
-  await page.getByRole('button', { name: 'Create New' }).click();
-  await page.getByRole('textbox', { name: 'Name *' }).click();
-  await page.getByRole('textbox', { name: 'Name *' }).press('CapsLock');
-  await page.getByRole('textbox', { name: 'Name *' }).fill('T');
-  await page.getByRole('textbox', { name: 'Name *' }).press('CapsLock');
-  await page.getByRole('textbox', { name: 'Name *' }).fill('Test12');
-  await page.getByRole('checkbox', { name: 'Saturday' }).check();
-  await page.locator('.CreateTalent_dropIcon__VdaDr > svg > path:nth-child(2)').click();
-  await page.locator('div:nth-child(2) > .MediaLibrary_folderIcon__XW9Br > svg > path:nth-child(2)').click();
-  await page.getByRole('img', { name: 'BlackCoffeeCafe.png' }).click();
-  await page.getByRole('img', { name: 'BlackCoffeeCafe.png' }).click();
-  await page.getByRole('button', { name: 'Apply Crop' }).click();
-  await page.getByRole('button', { name: 'Back to Talents' }).click();
-  await page.getByRole('checkbox').nth(2).check();
-  await page.getByRole('button', { name: 'Unpublish' }).click();
-  await page.getByText('Unpublished').click();
-});
-
-
-
-test('Verify Schedule Modal appearance and background', async ({ page }) => {await allure.feature('Schedule');await allure.displayName('Ensure the Schedule Modal appears correctly with a darkened background when Schedule is tapped.');await allure.owner('Sneha Krishna');await allure.tags('Schedule','UI/UX');await allure.severity('High');await allure.parentSuite('Schedule');await allure.suite('UI/UX');const common = new Common(page);
-  await page.goto('https://console.staging.revoltworld.com/login');
-  await page.getByRole('textbox', { name: 'Enter your email' }).click();
-  await page.getByRole('textbox', { name: 'Enter your email' }).fill('naven.a@tringapps.com');
-  await page.getByRole('textbox', { name: 'Enter your password' }).click();
-  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
-  await page.getByRole('textbox', { name: 'Enter your password' }).fill('T');
-  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
-  await page.getByRole('textbox', { name: 'Enter your password' }).fill('Test@123');
-  await page.getByRole('img', { name: 'Toggle password' }).click();
-  await page.getByRole('button', { name: 'Sign In' }).click();
-  await page.locator('div:nth-child(2) > .Projects_cardImage__IYNfF').click();
-  await page.locator('body').press('ControlOrMeta+-');
-  await page.locator('body').press('ControlOrMeta+-');
-  await page.locator('body').press('ControlOrMeta+-');
-  await page.locator('body').press('ControlOrMeta+-');
-  await page.locator('body').press('ControlOrMeta+-');
-  await page.locator('body').press('ControlOrMeta+-');
-  await page.getByRole('button', { name: 'Schedule' }).click();
-  await page.getByRole('button', { name: 'Schedule Notification' }).click();
-  await page.getByRole('button').filter({ hasText: /^$/ }).click();
-  await page.locator('.AllNotification_page__D-78m').click();
-});
-
-test('Verify the presence and position of the Notification Log tab.', async ({ page }) => {await allure.feature('Schedule');await allure.displayName('Ensure that the Notification Log tab is present on the UI and is positioned to the right of the Program Notifications tab in the middle section.');await allure.owner('Sneha Krishna');await allure.tags('Schedule','List');await allure.severity('High');await allure.parentSuite('Schedule');await allure.suite('List');const common = new Common(page);
-  await page.goto('https://console.staging.revoltworld.com/login');
-  await page.getByRole('textbox', { name: 'Enter your email' }).click();
-  await page.getByRole('textbox', { name: 'Enter your email' }).fill('naven.a@tringapps.com');
-  await page.getByRole('textbox', { name: 'Enter your password' }).click();
-  await page.getByRole('textbox', { name: 'Enter your email' }).press('CapsLock');
-  await page.getByRole('textbox', { name: 'Enter your password' }).fill('T');
-  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
-  await page.getByRole('textbox', { name: 'Enter your password' }).fill('Test@123');
-  await page.getByRole('img', { name: 'Toggle password' }).click();
-  await page.getByRole('button', { name: 'Sign In' }).click();
-  await page.locator('div:nth-child(2) > .Projects_cardImage__IYNfF').click();
-  await page.getByRole('button', { name: 'Configuration Configuration' }).click();
-  await page.getByRole('button', { name: 'Notifications Notifications' }).click();
-  await page.getByRole('tab', { name: 'Notification Log' }).click();
-});
-
-
-
