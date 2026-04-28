@@ -1,0 +1,106 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - img "Logo" [ref=e6] [cursor=pointer]
+    - navigation [ref=e7]:
+      - button "Notifications Notifications" [ref=e8] [cursor=pointer]:
+        - img "Notifications" [ref=e10]
+        - generic [ref=e11]: Notifications
+      - button "Configuration Configuration" [ref=e12] [cursor=pointer]:
+        - img "Configuration" [ref=e14]
+        - generic [ref=e15]: Configuration
+      - button "Talents Talents" [ref=e16] [cursor=pointer]:
+        - img "Talents" [ref=e18]
+        - generic [ref=e19]: Talents
+      - button "Programming Programming" [ref=e20] [cursor=pointer]:
+        - img "Programming" [ref=e22]
+        - generic [ref=e23]: Programming
+      - button "Sponsors Sponsors" [ref=e24] [cursor=pointer]:
+        - img "Sponsors" [ref=e26]
+        - generic [ref=e27]: Sponsors
+      - button "Food & Drinks Food & Drinks" [ref=e28] [cursor=pointer]:
+        - img "Food & Drinks" [ref=e30]
+        - generic [ref=e31]: Food & Drinks
+      - button "Experiences Experiences" [ref=e32] [cursor=pointer]:
+        - img "Experiences" [ref=e34]
+        - generic [ref=e35]: Experiences
+      - button "1:1 Sessions 1:1 Sessions" [ref=e36] [cursor=pointer]:
+        - img "1:1 Sessions" [ref=e38]
+        - generic [ref=e39]: 1:1 Sessions
+      - button "Merch Merch" [ref=e40] [cursor=pointer]:
+        - img "Merch" [ref=e42]
+        - generic [ref=e43]: Merch
+      - button "Screens Screens" [ref=e44] [cursor=pointer]:
+        - img "Screens" [ref=e46]
+        - generic [ref=e47]: Screens
+      - button "Ads Ads" [ref=e48] [cursor=pointer]:
+        - img "Ads" [ref=e50]
+        - generic [ref=e51]: Ads
+      - button "Exports Exports" [ref=e52] [cursor=pointer]:
+        - img "Exports" [ref=e54]
+        - generic [ref=e55]: Exports
+    - generic [ref=e56]:
+      - button "n Account" [ref=e57] [cursor=pointer]:
+        - generic [ref=e59]: "n"
+        - generic [ref=e60]: Account
+      - generic [ref=e61]:
+        - text: Powered by
+        - img "Logo" [ref=e62]
+  - main [ref=e63]:
+    - generic [ref=e65]:
+      - tablist [ref=e66]:
+        - tab "Locations" [selected] [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - generic [ref=e72]: Locations
+        - tab "Tracks" [ref=e73] [cursor=pointer]:
+          - generic [ref=e74]:
+            - img [ref=e75]
+            - generic [ref=e77]: Tracks
+      - tabpanel "Locations" [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - heading "Locations" [level=3] [ref=e82]
+            - generic [ref=e83]:
+              - generic [ref=e84]: Name
+              - textbox "Enter location name (e.g., Main Stage, VIP Section, Building A)" [ref=e85]
+            - generic [ref=e86]:
+              - generic [ref=e87]: GPS / Map Deeplink URL
+              - paragraph [ref=e88]: If you're using the interactive map and submitted a CAD file, paste the provided deep link URL here to GPS users to this location.
+              - generic [ref=e89]:
+                - img
+                - textbox "Enter deep link URL." [ref=e90]
+            - button "Create" [ref=e91] [cursor=pointer]
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - checkbox [ref=e95]
+              - generic [ref=e96]: Select All
+              - generic [ref=e98]: 0 Selected
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - generic [ref=e101]: NAME
+                - generic [ref=e102]: GPS / MAP DEEPLINK URL
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - checkbox [ref=e106]
+                    - generic [ref=e108]: Test
+                  - generic [ref=e109]: https://www.facebook.com/
+                - generic [ref=e111]:
+                  - checkbox [ref=e112]
+                  - generic [ref=e114]: Bodega-gs
+                - generic [ref=e116]:
+                  - checkbox [ref=e117]
+                  - generic [ref=e119]: Main Level
+                - generic [ref=e121]:
+                  - checkbox [ref=e122]
+                  - generic [ref=e124]: Rooftop
+                - generic [ref=e126]:
+                  - checkbox [ref=e127]
+                  - generic [ref=e129]: Main Stage
+                - generic [ref=e131]:
+                  - checkbox [ref=e132]
+                  - generic [ref=e134]: Gamers Lounge
+```
