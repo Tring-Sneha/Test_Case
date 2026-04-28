@@ -1,0 +1,1 @@
+{"id":"a7d2b13f9d6f5da6003eb3cda7bae556","fullName":"combine.spec.ts:858:5","name":"Verify that clicking Talent on the main navigation leads to the Talent Listing screen, and the default view correctly displays content fragments from AEM.","status":"passed","testResultsByEnv":{"default":"148746d328c9e92d61db0bebc8bc4b72"}}

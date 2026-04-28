@@ -390,19 +390,20 @@ test('Tracks Tab Selection and Dynamic Content Update', async ({ page }) => {awa
 });
 
 test('Locations Tab - Form and Empty State Visibility', async ({ page }) => {await allure.feature('Configuration');await allure.displayName('Locations Tab - Form and Empty State Visibility');await allure.owner('Sneha Krishna');await allure.tags('Configuration','Locations');await allure.severity('High');await allure.parentSuite('Configuration');await allure.suite('Locations');const common = new Common(page);
-  await page.goto('https://console.staging.revoltworld.com/login');
+await page.goto('https://console.staging.revoltworld.com/login');
   await page.getByRole('textbox', { name: 'Enter your email' }).click();
   await page.getByRole('textbox', { name: 'Enter your email' }).fill('naven.a@tringapps.com');
+  await page.getByRole('textbox', { name: 'Enter your email' }).press('CapsLock');
   await page.getByRole('textbox', { name: 'Enter your password' }).click();
-  await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
   await page.getByRole('textbox', { name: 'Enter your password' }).fill('T');
   await page.getByRole('textbox', { name: 'Enter your password' }).press('CapsLock');
   await page.getByRole('textbox', { name: 'Enter your password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Sign In' }).click();
-  await page.locator('div:nth-child(3) > .Projects_cardImage__IYNfF').click();
+  await page.locator('div:nth-child(2) > .Projects_cardImage__IYNfF').click();
+  await page.getByRole('button', { name: 'Notifications Notifications' }).click();
   await page.getByRole('button', { name: 'Configuration Configuration' }).click();
-  await page.getByRole('textbox', { name: 'https://maps.proximi.io/' }).click();
-  await page.getByRole('textbox', { name: 'Fantasy Booth' }).click();
+  await page.getByRole('textbox', { name: 'Enter location name (e.g.,' }).click();
+  await page.getByRole('textbox', { name: 'Enter deep link URL.' }).click();
 });
 
 

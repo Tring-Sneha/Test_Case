@@ -1,0 +1,282 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - img "Logo" [ref=e6] [cursor=pointer]
+    - navigation [ref=e7]:
+      - button "Notifications Notifications" [ref=e8] [cursor=pointer]:
+        - img "Notifications" [ref=e10]
+        - generic [ref=e11]: Notifications
+      - button "Configuration Configuration" [ref=e12] [cursor=pointer]:
+        - img "Configuration" [ref=e14]
+        - generic [ref=e15]: Configuration
+      - button "Talents Talents" [ref=e16] [cursor=pointer]:
+        - img "Talents" [ref=e18]
+        - generic [ref=e19]: Talents
+      - button "Programming Programming" [ref=e20] [cursor=pointer]:
+        - img "Programming" [ref=e22]
+        - generic [ref=e23]: Programming
+      - button "Sponsors Sponsors" [ref=e24] [cursor=pointer]:
+        - img "Sponsors" [ref=e26]
+        - generic [ref=e27]: Sponsors
+      - button "Food & Drinks Food & Drinks" [ref=e28] [cursor=pointer]:
+        - img "Food & Drinks" [ref=e30]
+        - generic [ref=e31]: Food & Drinks
+      - button "Experiences Experiences" [ref=e32] [cursor=pointer]:
+        - img "Experiences" [ref=e34]
+        - generic [ref=e35]: Experiences
+      - button "1:1 Sessions 1:1 Sessions" [ref=e36] [cursor=pointer]:
+        - img "1:1 Sessions" [ref=e38]
+        - generic [ref=e39]: 1:1 Sessions
+      - button "Merch Merch" [ref=e40] [cursor=pointer]:
+        - img "Merch" [ref=e42]
+        - generic [ref=e43]: Merch
+      - button "Screens Screens" [ref=e44] [cursor=pointer]:
+        - img "Screens" [ref=e46]
+        - generic [ref=e47]: Screens
+      - button "Ads Ads" [ref=e48] [cursor=pointer]:
+        - img "Ads" [ref=e50]
+        - generic [ref=e51]: Ads
+      - button "Exports Exports" [ref=e52] [cursor=pointer]:
+        - img "Exports" [ref=e54]
+        - generic [ref=e55]: Exports
+    - generic [ref=e56]:
+      - button "n Account" [ref=e57] [cursor=pointer]:
+        - generic [ref=e59]: "n"
+        - generic [ref=e60]: Account
+      - generic [ref=e61]:
+        - text: Powered by
+        - img "Logo" [ref=e62]
+  - main [ref=e63]:
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - button "Saturday" [ref=e67] [cursor=pointer]
+        - button "Create New" [ref=e68] [cursor=pointer]
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74] [cursor=pointer]: All
+              - generic [ref=e75] [cursor=pointer]: Published
+              - generic [ref=e76] [cursor=pointer]: Unpublished
+              - generic [ref=e77] [cursor=pointer]: Draft
+            - generic [ref=e78] [cursor=pointer]:
+              - checkbox [ref=e79]
+              - img [ref=e81]
+            - generic [ref=e82]:
+              - checkbox [ref=e83]
+              - generic [ref=e84]: Select All
+              - generic [ref=e86]: 0 Selected
+          - generic [ref=e88]:
+            - button "Calendar View" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+            - button "Table View" [ref=e92] [cursor=pointer]:
+              - img [ref=e93]
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e97]: TITLE
+            - generic [ref=e98]: CREATED
+            - generic [ref=e99]: MODIFIED
+            - generic [ref=e100]: START TIME
+            - generic [ref=e101]: END TIME
+            - generic [ref=e102]: LOCATION
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - checkbox [ref=e106]
+                - generic [ref=e109]: test
+              - generic [ref=e110]:
+                - generic "Apr 27, 2026, 3:01 PM" [ref=e111]
+                - generic "da117322bd98@techacct.adobe.com" [ref=e112]
+              - generic [ref=e113]:
+                - generic "Apr 27, 2026, 3:03 PM" [ref=e114]
+                - generic "da117322bd98@techacct.adobe.com" [ref=e115]
+              - generic [ref=e116]: 12:00 AM
+              - generic [ref=e117]: 1:00 AM
+              - generic [ref=e118]: Bodega-gs
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - checkbox [ref=e121]
+                - generic [ref=e123]:
+                  - generic [ref=e124]: From The Block Performance - Group 1
+                  - img "Ranked" [ref=e126]
+              - generic [ref=e127]:
+                - generic "Feb 27, 2026, 12:12 AM" [ref=e128]
+                - generic "mtejera@revolt.tv" [ref=e129]
+              - generic [ref=e130]:
+                - generic "Apr 2, 2026, 5:42 PM" [ref=e131]
+                - generic "da117322bd98@techacct.adobe.com" [ref=e132]
+              - generic [ref=e133]: 6:30 PM
+              - generic [ref=e134]: 7:00 PM
+              - generic [ref=e135]: Rooftop
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - checkbox [ref=e138]
+                - generic [ref=e141]: SEGA Virtua Fighter 5 R.E.V.O. World Stage Tournament
+              - generic [ref=e142]:
+                - generic "Mar 2, 2026, 10:32 PM" [ref=e143]
+                - generic "mtejera@revolt.tv" [ref=e144]
+              - generic [ref=e145]:
+                - generic "Apr 2, 2026, 2:32 PM" [ref=e146]
+                - generic "da117322bd98@techacct.adobe.com" [ref=e147]
+              - generic [ref=e148]: 7:00 PM
+              - generic [ref=e149]: 8:00 PM
+              - generic [ref=e150]: Main Level
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - checkbox [ref=e153]
+                - generic [ref=e156]: SEGA Virtua Fighter 5 R.E.V.O. World Stage Tournament
+              - generic [ref=e157]:
+                - generic "Mar 2, 2026, 10:33 PM" [ref=e158]
+                - generic "mtejera@revolt.tv" [ref=e159]
+              - generic [ref=e160]:
+                - generic "Apr 2, 2026, 2:32 PM" [ref=e161]
+                - generic "da117322bd98@techacct.adobe.com" [ref=e162]
+              - generic [ref=e163]: 10:00 PM
+              - generic [ref=e164]: 11:00 PM
+              - generic [ref=e165]: Main Level
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - checkbox [ref=e168]
+                - generic [ref=e171]: From The Block Performance - Group 4
+              - generic [ref=e172]:
+                - generic "Feb 27, 2026, 12:17 AM" [ref=e173]
+                - generic "mtejera@revolt.tv" [ref=e174]
+              - generic [ref=e175]:
+                - generic "Apr 2, 2026, 12:02 PM" [ref=e176]
+                - generic "da117322bd98@techacct.adobe.com" [ref=e177]
+              - generic [ref=e178]: 8:30 PM
+              - generic [ref=e179]: 10:00 PM
+              - generic [ref=e180]: Rooftop
+            - generic [ref=e181]:
+              - generic [ref=e182]:
+                - checkbox [ref=e183]
+                - generic [ref=e186]: SEGA Virtua Fighter 5 R.E.V.O. World Stage Tournament
+              - generic [ref=e187]:
+                - generic "Mar 2, 2026, 10:32 PM" [ref=e188]
+                - generic "mtejera@revolt.tv" [ref=e189]
+              - generic [ref=e190]:
+                - generic "Mar 27, 2026, 4:44 PM" [ref=e191]
+                - generic "da117322bd98@techacct.adobe.com" [ref=e192]
+              - generic [ref=e193]: 9:00 PM
+              - generic [ref=e194]: 10:00 PM
+              - generic [ref=e195]: Main Level
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - checkbox [ref=e198]
+                - generic [ref=e200]:
+                  - generic [ref=e201]: SEGA Virtua Fighter 5 R.E.V.O. World Stage Tournament
+                  - img "Ranked" [ref=e203]
+              - generic [ref=e204]:
+                - generic "Mar 2, 2026, 10:28 PM" [ref=e205]
+                - generic "mtejera@revolt.tv" [ref=e206]
+              - generic [ref=e207]:
+                - generic "Mar 26, 2026, 6:20 PM" [ref=e208]
+                - generic "da117322bd98@techacct.adobe.com" [ref=e209]
+              - generic [ref=e210]: 8:00 PM
+              - generic [ref=e211]: 9:00 PM
+              - generic [ref=e212]: Main Level
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - checkbox [ref=e215]
+                - generic [ref=e218]: From The Block Performance - Group 3
+              - generic [ref=e219]:
+                - generic "Feb 27, 2026, 12:16 AM" [ref=e220]
+                - generic "mtejera@revolt.tv" [ref=e221]
+              - generic [ref=e222]:
+                - generic "Mar 5, 2026, 9:10 PM" [ref=e223]
+                - generic "mtejera@revolt.tv" [ref=e224]
+              - generic [ref=e225]: 8:00 PM
+              - generic [ref=e226]: 8:30 PM
+              - generic [ref=e227]: Rooftop
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - checkbox [ref=e230]
+                - generic [ref=e233]: From The Block Performance - Group 2
+              - generic [ref=e234]:
+                - generic "Feb 27, 2026, 12:16 AM" [ref=e235]
+                - generic "mtejera@revolt.tv" [ref=e236]
+              - generic [ref=e237]:
+                - generic "Mar 5, 2026, 9:09 PM" [ref=e238]
+                - generic "mtejera@revolt.tv" [ref=e239]
+              - generic [ref=e240]: 7:30 PM
+              - generic [ref=e241]: 8:00 PM
+              - generic [ref=e242]: Rooftop
+            - generic [ref=e243]:
+              - generic [ref=e244]:
+                - checkbox [ref=e245]
+                - generic [ref=e247]:
+                  - generic [ref=e248]: Bae Brigade Battle
+                  - img "Ranked" [ref=e250]
+              - generic [ref=e251]:
+                - generic "Feb 25, 2026, 12:26 AM" [ref=e252]
+                - generic "mtejera@revolt.tv" [ref=e253]
+              - generic [ref=e254]:
+                - generic "Mar 5, 2026, 1:47 AM" [ref=e255]
+                - generic "mtejera@revolt.tv" [ref=e256]
+              - generic [ref=e257]: 9:05 PM
+              - generic [ref=e258]: 10:00 PM
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - checkbox [ref=e262]
+                - generic [ref=e265]: RabSoPetty's Hood JuJutsu Kaisen Culling Game
+              - generic [ref=e266]:
+                - generic "Feb 25, 2026, 12:23 AM" [ref=e267]
+                - generic "mtejera@revolt.tv" [ref=e268]
+              - generic [ref=e269]:
+                - generic "Mar 5, 2026, 1:47 AM" [ref=e270]
+                - generic "mtejera@revolt.tv" [ref=e271]
+              - generic [ref=e272]: 7:50 PM
+              - generic [ref=e273]: 8:20 PM
+            - generic [ref=e275]:
+              - generic [ref=e276]:
+                - checkbox [ref=e277]
+                - generic [ref=e280]: Father Romar
+              - generic [ref=e281]:
+                - generic "Feb 28, 2026, 1:08 AM" [ref=e282]
+                - generic "mtejera@revolt.tv" [ref=e283]
+              - generic [ref=e284]:
+                - generic "Feb 28, 2026, 1:10 AM" [ref=e285]
+                - generic "mtejera@revolt.tv" [ref=e286]
+              - generic [ref=e287]: 10:15 PM
+              - generic [ref=e288]: 10:25 PM
+            - generic [ref=e290]:
+              - generic [ref=e291]:
+                - checkbox [ref=e292]
+                - generic [ref=e295]: Gee Litt
+              - generic [ref=e296]:
+                - generic "Feb 28, 2026, 1:07 AM" [ref=e297]
+                - generic "mtejera@revolt.tv" [ref=e298]
+              - generic [ref=e299]:
+                - generic "Feb 28, 2026, 1:08 AM" [ref=e300]
+                - generic "mtejera@revolt.tv" [ref=e301]
+              - generic [ref=e302]: 10:05 PM
+              - generic [ref=e303]: 10:15 PM
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - checkbox [ref=e307]
+                - generic [ref=e310]: SLIKKMONEY Opening DJ Set
+              - generic [ref=e311]:
+                - generic "Feb 25, 2026, 12:22 AM" [ref=e312]
+                - generic "mtejera@revolt.tv" [ref=e313]
+              - generic [ref=e314]:
+                - generic "Feb 27, 2026, 12:18 AM" [ref=e315]
+                - generic "mtejera@revolt.tv" [ref=e316]
+              - generic [ref=e317]: 7:00 PM
+              - generic [ref=e318]: 7:40 PM
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - checkbox [ref=e322]
+                - generic [ref=e324]:
+                  - generic [ref=e325]: Monaleo
+                  - img "Ranked" [ref=e327]
+              - generic [ref=e328]:
+                - generic "Feb 25, 2026, 1:15 AM" [ref=e329]
+                - generic "mtejera@revolt.tv" [ref=e330]
+              - generic [ref=e331]:
+                - generic "Feb 25, 2026, 1:36 PM" [ref=e332]
+                - generic "naven.a@tringapps.com" [ref=e333]
+              - generic [ref=e334]: 10:30 PM
+              - generic [ref=e335]: 11:00 PM
+```

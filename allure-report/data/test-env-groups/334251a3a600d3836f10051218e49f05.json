@@ -1,0 +1,1 @@
+{"id":"334251a3a600d3836f10051218e49f05","fullName":"combine.spec.ts:74:5","name":"Ensure that tapping the Account CTA triggers the existing behavior of displaying the logout option.","status":"passed","testResultsByEnv":{"default":"6be81a327cd3a37e6ebde7753afd1409"}}
