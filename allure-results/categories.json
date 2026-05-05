@@ -1,1 +1,0 @@
-[{"name":"Failed Tests","messageRegex":".*","matchedStatuses":["FAILED"]},{"name":"Broken Tests","messageRegex":".broken.","matchedStatuses":["FAILED"]}]

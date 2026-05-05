@@ -1,1 +1,0 @@
-{"id":"7499ac6a618b8ad6d633bb59acb3e858","fullName":"combine.spec.ts:698:5","name":"Ensure that when navigating to the program calendar, the Calendar view toggle is highlighted or marked as active, while the Listing toggle is inactive.","status":"passed","testResultsByEnv":{"default":"2e3e25690a73270b07a27eb87a32d4d5"}}

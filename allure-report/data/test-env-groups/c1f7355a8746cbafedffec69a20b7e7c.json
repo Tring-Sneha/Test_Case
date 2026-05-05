@@ -1,1 +1,0 @@
-{"id":"c1f7355a8746cbafedffec69a20b7e7c","fullName":"combine.spec.ts:894:5","name":"Verify that clicking Cancel on a new, empty form (Draft status) closes the form and does not create any Talent.","status":"passed","testResultsByEnv":{"default":"90f320f86746f0c28e24678cb2fab729"}}
