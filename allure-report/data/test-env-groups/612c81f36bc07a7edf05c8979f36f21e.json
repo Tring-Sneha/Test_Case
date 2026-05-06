@@ -1,0 +1,1 @@
+{"id":"612c81f36bc07a7edf05c8979f36f21e","fullName":"combine.spec.ts:1153:5","name":"Ensure the Back CTA is visible in the correct location with the specified text and icon, and correctly navigates back to the previous screen (Experiences listing) while retaining the active day tab.","status":"passed","testResultsByEnv":{"default":"b3d9040df97346ff254ed0e96984fa4f"}}
