@@ -1,1 +1,0 @@
-{"id":"fe629d666b28fafe50683654818b8cfb","fullName":"combine.spec.ts:1098:5","name":"Ensure that the Experiences Listing Table is visible and contains the correct column headers: NAME, DESCRIPTION, LOCATION, SPONSOR, and LINKS, as per acceptance criteria 3 and 3A-E.","status":"failed","testResultsByEnv":{"default":"2e66883f340a6e6060f97c22a82b2e35"}}

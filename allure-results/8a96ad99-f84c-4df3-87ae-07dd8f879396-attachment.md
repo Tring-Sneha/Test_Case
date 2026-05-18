@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - img "Logo" [ref=e6] [cursor=pointer]
+    - navigation [ref=e7]:
+      - button "Notifications Notifications" [ref=e8] [cursor=pointer]:
+        - img "Notifications" [ref=e10]
+        - generic [ref=e11]: Notifications
+      - button "Configuration Configuration" [ref=e12] [cursor=pointer]:
+        - img "Configuration" [ref=e14]
+        - generic [ref=e15]: Configuration
+      - button "Talents Talents" [ref=e16] [cursor=pointer]:
+        - img "Talents" [ref=e18]
+        - generic [ref=e19]: Talents
+      - button "Programming Programming" [ref=e20] [cursor=pointer]:
+        - img "Programming" [ref=e22]
+        - generic [ref=e23]: Programming
+      - button "Sponsors Sponsors" [ref=e24] [cursor=pointer]:
+        - img "Sponsors" [ref=e26]
+        - generic [ref=e27]: Sponsors
+      - button "Food & Drinks Food & Drinks" [ref=e28] [cursor=pointer]:
+        - img "Food & Drinks" [ref=e30]
+        - generic [ref=e31]: Food & Drinks
+      - button "Experiences Experiences" [ref=e32] [cursor=pointer]:
+        - img "Experiences" [ref=e34]
+        - generic [ref=e35]: Experiences
+      - button "1:1 Sessions 1:1 Sessions" [ref=e36] [cursor=pointer]:
+        - img "1:1 Sessions" [ref=e38]
+        - generic [ref=e39]: 1:1 Sessions
+      - button "Merch Merch" [ref=e40] [cursor=pointer]:
+        - img "Merch" [ref=e42]
+        - generic [ref=e43]: Merch
+      - button "Screens Screens" [ref=e44] [cursor=pointer]:
+        - img "Screens" [ref=e46]
+        - generic [ref=e47]: Screens
+      - button "Ads Ads" [ref=e48] [cursor=pointer]:
+        - img "Ads" [ref=e50]
+        - generic [ref=e51]: Ads
+      - button "Exports Exports" [ref=e52] [cursor=pointer]:
+        - img "Exports" [ref=e54]
+        - generic [ref=e55]: Exports
+    - generic [ref=e56]:
+      - button "n Account" [ref=e57] [cursor=pointer]:
+        - generic [ref=e59]: "n"
+        - generic [ref=e60]: Account
+      - generic [ref=e61]:
+        - text: Powered by
+        - img "Logo" [ref=e62]
+  - main [ref=e63]:
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - button "Back to Experiences" [ref=e66] [cursor=pointer]:
+          - img [ref=e67]
+          - generic [ref=e69]: Back to Experiences
+        - generic [ref=e70]: "|"
+        - generic [ref=e71]: Create New Experience
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - img [ref=e74]
+          - text: Draft
+        - generic [ref=e78]:
+          - button "Cancel" [ref=e79] [cursor=pointer]
+          - button "Publish" [ref=e80] [cursor=pointer]
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]: Basic Information
+          - generic [ref=e86]:
+            - generic [ref=e87]: Name *
+            - textbox "Enter Experience name" [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e90]: Location
+            - generic [ref=e92] [cursor=pointer]:
+              - img [ref=e93]
+              - generic [ref=e96]: Select location
+              - img [ref=e97]
+          - generic [ref=e99]:
+            - generic [ref=e100]: Description
+            - textbox "Describe the experiences offered" [ref=e101]
+        - generic [ref=e102]:
+          - generic [ref=e103]: Photos
+          - generic [ref=e104]:
+            - generic [ref=e105]: Profile Picture
+            - generic [ref=e106]:
+              - paragraph [ref=e107]: PNG, JPG, GIF up to 10MB
+              - paragraph [ref=e108]: Maintain 390px x 450px or 4:5 aspect ratio
+            - generic [ref=e110] [cursor=pointer]:
+              - img [ref=e112]
+              - paragraph [ref=e115]: Click to upload or select from media library
+        - generic [ref=e116]:
+          - generic [ref=e117]: Linked Sponsor & Programs
+          - generic [ref=e118]:
+            - generic [ref=e119]: Sponsor
+            - generic [ref=e121] [cursor=pointer]:
+              - img [ref=e122]
+              - generic [ref=e125]: Select sponsor
+              - img [ref=e126]
+          - generic [ref=e128]:
+            - generic [ref=e129]: Programs
+            - generic [ref=e131] [cursor=pointer]:
+              - img [ref=e132]
+              - generic [ref=e135]: Select programs
+              - img [ref=e136]
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: Social Media Links
+          - generic [ref=e141]:
+            - generic [ref=e142]: Instagram
+            - generic [ref=e143]:
+              - generic:
+                - img
+              - textbox "https://instagram.com/username" [ref=e144]
+          - generic [ref=e145]:
+            - generic [ref=e146]: X (Twitter)
+            - generic [ref=e147]:
+              - generic:
+                - img
+              - textbox "https://x.com/username" [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e150]: Facebook
+            - generic [ref=e151]:
+              - generic:
+                - img
+              - textbox "https://facebook.com/username" [ref=e152]
+          - generic [ref=e153]:
+            - generic [ref=e154]: TikTok
+            - generic [ref=e155]:
+              - generic:
+                - img
+              - textbox "https://tiktok.com/@username" [ref=e156]
+          - generic [ref=e157]:
+            - generic [ref=e158]: LinkedIn
+            - generic [ref=e159]:
+              - generic:
+                - img
+              - textbox "https://linkedin.com/company/name" [ref=e160]
+        - generic [ref=e161]:
+          - generic [ref=e162]: Calls To Action
+          - generic [ref=e163]:
+            - generic [ref=e164]: Primary CTA Copy
+            - textbox "e.g,. Order Now" [ref=e165]
+          - generic [ref=e166]:
+            - generic [ref=e167]: Primary CTA Link
+            - textbox "https://example.com/order" [ref=e168]
+          - generic [ref=e169]:
+            - generic [ref=e170]: Secondary CTA Copy
+            - textbox "e.g,. View Menu" [ref=e171]
+          - generic [ref=e172]:
+            - generic [ref=e173]: Secondary CTA Link
+            - textbox "https://example.com/order" [ref=e174]
+```
