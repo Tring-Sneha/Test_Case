@@ -1,0 +1,1 @@
+{"id":"8a98f1a2d2798a661212057ef21c6c2d","fullName":"combine.spec.ts:2105:5","name":"Ensure an error is shown and the vendor is not saved if the Name field is left empty.","status":"passed","testResultsByEnv":{"default":"676d533aa0f895f2d59f79eb82959389"}}

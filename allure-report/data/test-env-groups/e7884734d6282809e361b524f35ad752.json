@@ -1,0 +1,1 @@
+{"id":"e7884734d6282809e361b524f35ad752","fullName":"combine.spec.ts:1971:5","name":"Verify that upon clicking Configuration in the ECC Main Navigation, the middle section updates to display Locations and Tracks tabs at the top left.","status":"passed","testResultsByEnv":{"default":"32d231f8191d54c7ae794b32eacf6a89"}}

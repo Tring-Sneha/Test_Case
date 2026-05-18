@@ -1,0 +1,1 @@
+{"id":"25a066c9291d535a1a8980ddfd98f143","fullName":"combine.spec.ts:1019:5","name":"Verify that for a new or draft talent, only the Publish CTA is displayed, and clicking it saves and publishes the talent.","status":"passed","testResultsByEnv":{"default":"ed80c5f9c360d6fb3c1b1280c04c2a5d"}}

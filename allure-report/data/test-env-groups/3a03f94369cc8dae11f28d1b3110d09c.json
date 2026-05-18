@@ -1,0 +1,1 @@
+{"id":"3a03f94369cc8dae11f28d1b3110d09c","fullName":"combine.spec.ts:1809:5","name":"Verify that the Select All checkbox allows selecting all talents in the table and correctly displays the total count.","status":"failed","testResultsByEnv":{"default":"61f07577b1c1c671ce5a3b7371c167a2"}}
